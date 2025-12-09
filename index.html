@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumina One – Lumina Audio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Comfortaa:wght@400;600&family=Caveat:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Smooth scroll -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+<header class="site-header">
+  <div class="nav-inner">
+
+    <!-- BURGER BUTTON -->
+    <button class="burger" aria-label="Åbn menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <nav class="main-nav">
+      <a href="#">Forside</a>
+      <a href="#nyheder">Højtalere</a>
+      <a href="#om-lumina">Om Lumina</a>
+
+      <a href="#" class="nav-logo">
+        <img src="images/Logo.png" alt="Lumina Audio logo">
+      </a>
+
+      <a href="#strap">Nyhed</a>
+      <a href="#prov-lumina">Prøv den</a>
+    </nav>
+
+    <a href="#" class="btn btn-nav-cta">Kontakt os</a>
+
+  </div>
+</header>
+
+<!-- MOBILE MENU OVERLAY -->
+<div class="mobile-menu" aria-hidden="true">
+  <div class="mobile-menu-inner">
+    <button class="mobile-menu-close" type="button" aria-label="Luk menu">×</button>
+
+    <nav class="mobile-menu-nav">
+      <a href="#nyheder">Højtalere</a>
+      <a href="#nyheder">Favoritter</a>
+      <a href="#om-lumina">Om Lumina</a>
+      <a href="#footer">Support</a>
+      <a href="#footer">Returnering</a>
+    </nav>
+  </div>
+</div>
+
+<!-- hero section-->
+<main>
+
+<section class="hero">
+  <div class="hero-content">
+
+    <h1 class="hero-title">Lumina One</h1>
+
+    <div class="hero-ctas">
+      <a href="#" class="btn btn-outline">Udforsk mere</a>
+      <a href="#" class="btn btn-primary">Køb nu</a>
+    </div>
+
+   <div class="hero-colors">
+
+  <!-- Dusty Rose -->
+  <a href="index.html">
+    <img src="images/Lilleroed.png" alt="Dusty Rose" />
+  </a>
+
+  <!-- Moonlight White -->
+  <a href="white.html">
+    <img src="images/lillehvid.png" alt="Moonlight White" />
+  </a>
+
+  <!-- Sage Green -->
+  <a href="green.html">
+    <img src="images/lillegron.png" alt="Sage Green" />
+  </a>
+
+  <!-- Lavender Mist -->
+  <a href="purple.html">
+    <img src="images/lillelilla2.png" alt="Lavender Mist" />
+  </a>
+
+</div>
+
+  </div>
+
+  <div class="hero-product">
+    <img src="images/rod.speaker.png" class="hero-speaker">
+  </div>
+</section>
+
+
+
+<!-- News section -->
+<section class="news" id="nyheder">
+
+  <div class="news-header">
+    <p class="news-eyebrow">Kommer i fire farver</p>
+    <h2 class="news-title">Nyheder</h2>
+    <p class="news-subtitle">Til enhver lejlighed</p>
+  </div>
+
+  <div class="news-scroller">
+
+    <!-- CARD 1 -->
+    <article class="product-card">
+      <div class="product-card-inner">
+        <img src="images/rod.speaker.png" class="product-image">
+        <button class="fav-btn">♡</button>
+      </div>
+      <div class="product-info">
+        <h3 class="product-name">Lumina One</h3>
+        <p class="product-color">Dusty Rose</p>
+        <p class="product-price">1995,-</p>
+        <a class="btn btn-primary product-cta">Køb nu</a>
+      </div>
+    </article>
+
+    <!-- CARD 2 -->
+    <article class="product-card">
+      <div class="product-card-inner">
+        <img src="images/hvid.speaker.png" class="product-image">
+        <button class="fav-btn">♡</button>
+      </div>
+      <div class="product-info">
+        <h3 class="product-name">Lumina One</h3>
+        <p class="product-color">Moonlight White</p>
+        <p class="product-price">1995,-</p>
+        <a class="btn btn-primary product-cta">Køb nu</a>
+      </div>
+    </article>
+
+    <!-- CARD 3 -->
+    <article class="product-card">
+      <div class="product-card-inner">
+        <img src="images/Gron.speaker.png" class="product-image">
+        <button class="fav-btn">♡</button>
+      </div>
+      <div class="product-info">
+        <h3 class="product-name">Lumina One</h3>
+        <p class="product-color">Sage Green</p>
+        <p class="product-price">1995,-</p>
+        <a class="btn btn-primary product-cta">Køb nu</a>
+      </div>
+    </article>
+
+    <!-- CARD 4 -->
+    <article class="product-card">
+      <div class="product-card-inner">
+        <img src="images/lilla.speaker.png" class="product-image">
+        <button class="fav-btn">♡</button>
+      </div>
+      <div class="product-info">
+        <h3 class="product-name">Lumina One</h3>
+        <p class="product-color">Lavender Mist</p>
+        <p class="product-price">1995,-</p>
+        <a class="btn btn-primary product-cta">Køb nu</a>
+      </div>
+    </article>
+
+  </div>
+
+</section>
+
+<!-- Om Lumina section -->
+
+<section class="about" id="om-lumina">
+  <div class="about-inner">
+
+    <!-- Left collumn text -->
+    <article class="about-text-card">
+      <p class="about-intro">
+        LUMINA Audio er et nordisk lydbrand med fokus på stil, fællesskab og funktionalitet. 
+        Vi laver højtalere, der kombinerer kraftfuld lyd med et æstetisk design, skabt til unge kvinder, 
+        der elsker musik, fester, picnic i parken, yoga på stranden og hyggelige sammenkomster.
+      </p>
+
+      <div class="about-cta-row">
+        <h2 class="about-heading">OM LUMINA</h2>
+        <a href="#" class="btn btn-about">Mere om os</a>
+      </div>
+    </article>
+
+    <!-- right collumn picture -->
+    <div class="about-media">
+      <div class="about-image-wrapper">
+        <img src="images/Yoga.png" alt="Yoga billede" class="about-main-image" />
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- TAG HØJTTALEREN med section -->
+<section class="strap" id="strap">
+  <div class="strap-inner">
+
+    <!-- left hand+ speaker-->
+    <img
+      src="images/speakerhandomv.png"
+      alt="Hånd holder Lumina højtaler"
+      class="strap-hand strap-hand-left"
+    />
+
+    <!-- right hand+ speaker -->
+    <img
+      src="images/speakerhandpng.png"
+      alt="Hånd holder Lumina højtaler"
+      class="strap-hand strap-hand-right"
+    />
+
+    <!-- curved text -->
+    <svg
+      class="strap-curve"
+      viewBox="0 0 600 200"
+      aria-hidden="true"
+    >
+      <defs>
+        <path
+          id="strapPath"
+          d="M 50 150 C 200 10 400 10 550 150"
+        />
+      </defs>
+
+      <text
+        font-size="32"
+        font-family="Comfortaa, system-ui"
+        fill="#ffffff"
+      >
+        <textPath
+          href="#strapPath"
+          startOffset="50%"
+          text-anchor="middle"
+        >
+          Tag højtaleren med dig overalt
+        </textPath>
+      </text>
+    </svg>
+
+    <!-- text -->
+    <p class="strap-text">
+      Altid klar til at tage med – stroppen gør det nemt at have Lumina med til
+      yoga, cykelture og venindehygge.
+    </p>
+  </div>
+</section>
+
+<!-- AR overlay  -->
+<div class="ar-overlay" id="ar-overlay">
+  <button class="ar-close" id="ar-close" aria-label="Luk visning">×</button>
+
+  <!-- Videostream from camera -->
+  <video id="ar-video" autoplay playsinline muted></video>
+
+  <!-- Højtaleren ovenpå kameraet -->
+  <img
+    src="images/rod.speaker.png"
+    alt="Lumina One"
+    class="ar-speaker"
+  />
+</div>
+
+
+<!-- TRY LUMINA -->
+<section class="try" id="prov-lumina">
+  <div class="try-inner">
+    
+    <!-- left picture-->
+    <div class="try-gallery">
+      <img src="images/Seng.png" alt="Lumina One på sengen" class="try-img try-img-top-left">
+      <img src="images/telefon.png" alt="Veninder med Lumina One" class="try-img try-img-top-right">
+      <img src="images/Hojtaerkoekken.png" alt="Lumina One i køkkenet" class="try-img try-img-bottom">
+    </div>
+
+    <!--right picture  -->
+    <div class="try-content">
+      <h2 class="try-title">
+        Prøv Lumina One<br>
+        i dit eget hjem
+      </h2>
+
+      <p class="try-body">
+        Åben kameraet og se, hvordan<br>
+        Lumina One passer i dit hjem –
+      </p>
+
+      <p class="try-tagline">
+        helt enkelt og realistisk
+      </p>
+
+      <button class="btn btn-primary try-cta" id="try-lumina-btn">
+        Prøv den her
+      </button>
+    </div>
+
+  </div>
+</section>
+</main>
+
+<script src="script.js"></script>
+
+<footer class="footer" id="footer">
+  <div class="footer-inner">
+
+    <!-- left side -->
+    <div class="footer-left">
+      <h2 class="footer-heading">Gå aldrig glip af god lyd eller et godt tilbud.</h2>
+
+      <!-- Email + button -->
+      <div class="footer-form">
+        <input 
+          type="email" 
+          placeholder="Indtast e-mailadresse" 
+          class="footer-input"
+        >
+        <button class="btn-footer">Tilmeld dig her</button>
+      </div>
+
+      <!-- Checkbox+ text -->
+      <label class="footer-checkbox">
+        <input type="checkbox">
+        <span>
+          Du accepterer at modtage opdateringer, kampagnetilbud 
+          og andre meddelelser fra Lumina.  
+          Du kan framelde dig når som helst.
+        </span>
+      </label>
+    </div>
+
+    <!-- right side -->
+    <div class="footer-right">
+      <img 
+        src="images/logoblack.png" 
+        alt="Lumina Audio logo" 
+        class="footer-logo"
+      >
+
+      <p class="footer-social-label">Følg os</p>
+
+      <img 
+        src="images/socialemedier.png" 
+        alt="Sociale medier ikoner"
+        class="footer-social-strip"
+      >
+    </div>
+
+  </div>
+</footer>
+</body>
+</html>
+
